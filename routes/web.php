@@ -41,3 +41,4 @@ Route::get('/activitylog', 'ActivitylogController@index')->name('activitylog.ind
 Route::get('/profiles/{user}', 'ProfileController@profile')->name('profile.show');
 
 Route::get('/form/{user}', 'FormController@userform')->name('form.show');
+

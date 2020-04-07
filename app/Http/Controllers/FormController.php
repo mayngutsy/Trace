@@ -12,4 +12,6 @@ class FormController extends Controller
         $user = User::find($user);
         return view('/forms/how_to_form', ['user'=>$user]);
     }
+
+
 }
